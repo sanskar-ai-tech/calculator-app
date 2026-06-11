@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from calculator import calculator
+from backend.calculator import calculator
 
 app = Flask(
     __name__,
